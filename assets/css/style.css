@@ -35,6 +35,7 @@ p{
     color: #234CAD;
 }
 
+
 /* Header & Banner */
 
 #Banner{
@@ -94,6 +95,52 @@ li{
     padding-bottom: 45px;
 }
 
+/* About & Pricing */
+
+.card1 {
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+.card1:hover {
+    background-color: #FFF;
+    border: 3px solid #234CAD !important
+}
+
+.card1:hover .list-group-item {
+    background: #F2F6FF !important
+}
+
+.card2 {
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+.card2:hover {
+    background: #FFF;
+    border: 3px solid #234CAD !important
+}
+
+.card2:hover .list-group-item {
+    background: #F2F6FF !important
+}
+
+
+.card3 {
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+.card3:hover {
+    background: #FFF;
+    border: 3px solid #234CAD !important
+}
+
+.card3:hover .list-group-item {
+    background: #F2F6FF !important
+
+}
+
 .btn-outline-primary {
     border-radius: 37.5px;
     background: #F2F6FF;
@@ -118,6 +165,7 @@ li{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
 
 .kotak1{
     padding-top: 12px;
@@ -231,4 +279,13 @@ li{
 
 .imgkotak4{
     margin-top: 10px;
+}
+
+.card:hover .btn-outline-primary {
+    border-radius: 37.5px;
+    background: #FFF;
+    width: 274px;
+    height: 75px;
+    justify-content: center;
+
 }
